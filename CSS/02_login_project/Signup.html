@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #1f1f1f;
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }    
+        .card{
+            background-color: #b3ddb4;
+            border-radius: 10px;
+            padding: 5px;
+            width: 300px;
+            margin: 0 auto;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            box-sizing: border-box;
+            overflow: hidden; 
+            text-align: center;
+
+            
+        }
+        .input-pair{
+            display: flex;
+            gap: 15px;
+            
+        }
+       
+        form{
+            display: flex;
+            flex-direction: column;
+            gap: 7px;
+        }
+        form input {
+            width: 100%; 
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box; 
+            }
+        h2{
+            padding: 0;
+            color: rgb(32, 32, 131);
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .password{
+            width: 70%;
+            margin: 0 auto;
+            display: block;
+        }
+       
+        .card-button{
+            margin-top: 20px;
+            padding: 6px 20px;
+            background-color:  rgba(80, 38, 177, 0.81);
+            color: #ffff;
+            border: none;
+            border-radius: 5px; 
+            width: 50%;
+            cursor: pointer;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h2>SignUp</h2>
+        <form action="submit">
+            <input type="email" name="" placeholder="Email">
+            <div class="input-pair">
+                <input type="text" name="" placeholder="First name">
+                <input type="text" name="" placeholder="Last name">
+            </div>
+            
+            <input type="password" class="password" placeholder="Password">
+            
+            
+            <button type="submit" class="card-button">Sign Up</button>
+        </form>
+        
+    </div>
+</body>
+</html>
